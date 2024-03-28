@@ -1,0 +1,57 @@
+{
+  "name": "consequaturipsam",
+  "description": "Executes Cucumber scenarios in parrallel, reducing the amount of time tests take to execute",
+  "keywords": [
+    "cucumber",
+    "cucumber-js",
+    "grid",
+    "parallel",
+    "inventore"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/JordaneKoelpin/consequaturipsam.git",
+  "author": "MyrtieGoodwin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JordaneKoelpin/consequaturipsam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JordaneKoelpin/consequaturipsam.git/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/parallel-cucumber",
+  "engines": {
+    "node": ">=0.8.19"
+  },
+  "dependencies": {
+    "yargs": "~1.2.1",
+    "async": "~0.2.7",
+    "glob": "~3.2.1",
+    "debug": "~0.7.2",
+    "js-yaml": "~2.1.0",
+    "colors": "~0.6.0-1"
+  },
+  "peerDependencies": {
+    "cucumber": "~0.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-shell": "~0.7.0",
+    "deep-diff": "~0.1.7",
+    "diff": "~1.0.8",
+    "stripcolorcodes": "~0.1.0"
+  },
+  "bin": {
+    "parallel-cucumber-js": "./bin/parallel-cucumber-js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/simondean/parallel-cucumber/LICENSE"
+    }
+  ]
+}
